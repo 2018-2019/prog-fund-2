@@ -1,0 +1,71 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-04b",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>CRUD · ShopV4.0 · DVDLibraryV2.0 · Debugging</p>",
+  "folder" : "book-2-crud",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "Objectives",
+    "shortTitle": "Lab-04b",
+    "contentMd" : "#Objectives\r\n\r\nCRUD · ShopV4.0 · DVDLibraryV2.0 · Debugging"
+    },
+  
+    {
+    "title": "Developing Shop V4.0 ",
+    "shortTitle": "01",
+    "contentMd" : "#Developing Shop V4.0 \r\n\r\nIn this practical, you will create a new project called ShopV4.0 in IntelliJ. You will add the Driver, Store and Product classes (linked below) to this project and amend the code so that it presents the user with the following simple menu for adding, listing, updating and deleting products (see Figure 1).\r\n\r\n![](./img/01.png) \r\n\r\n\r\n##Starting ShopV4.0\r\n\r\nCreate a new project called ShopV4.0.\r\n\r\nCopy the following classes into the project:\r\n\r\n- [Driver.java](archives/Driver.java)\r\n\r\n- [Store.java](archives/Store.java)\r\n\r\n- [Product.java](archives/Product.java)\r\n\r\nFamiliarise yourself with these classes by reviewing the code.\r\n\r\nIn the Driver class, make the following changes to display the updated menu:\r\n\r\n![](./img/02.png) \r\n\r\nAlso in the Driver class, update the switch statement that processes the menu options to be:\r\n\r\n~~~java\r\n            switch (option){\r\n                case 1:    addProduct();\r\n                    break;\r\n                case 2:    printProduct();\r\n                    break;\r\n                case 5:    printCurrentProducts();\r\n                    break;\r\n                case 6:    printAverageProductPrice();\r\n                    break;\r\n                case 7:    printCheapestProduct();\r\n                    break;\r\n                case 8:    printProductsAboveAPrice();\r\n                    break;\r\n                default:   System.out.println(\"Invalid option entered: \" + option);\r\n                    break;\r\n            }\r\n~~~\r\n\r\nRun the project.  \r\n\r\n- Test options 1 and 2 to ensure you can add and list products.  \r\n\r\n- Test options 5-8 to make sure they are working as expected.\r\n\r\n- Test options 3 and 4; they should do nothing and we will add this code in the subsequent steps.\r\n\r\n"
+    },
+  
+    {
+    "title": "Developing Shop V4.0 ",
+    "shortTitle": "02",
+    "contentMd" : "#Developing Shop V4.0 \r\n\r\nContinue working with ShopV4.0 in IntelliJ.  You will add the code to delete a product, using menu option 4.\r\n\r\n![](./img/01.png) \r\n\r\n\r\n##Store Class - getting ready for deleting\r\n\r\nIn the Store class, add an accessor method for the ArrayList of Products i.e.:\r\n\r\n~~~java\r\npublic ArrayList<Product> getProducts()\r\n{\r\n\treturn products;\r\n}\r\n~~~\r\n\r\n\r\n##Menu Item 4:  Deleting a product\r\n\r\nIn the Driver class, make the following changes to implement case 4 (deleting a product):\r\n\r\n![](./img/05.png) \r\n\r\n\r\nCode for deleting a Product:\r\n\r\n![](./img/06.png) \r\n\r\n\r\n##Testing the delete\r\n\r\nRun the project (as a Java Application).\r\n\r\nAdd a product using option 1.\r\n\r\nTest option 4 and try to delete the product you just added.  \r\n\r\nDid it work?\r\n\r\nNow try to delete a product that doesn't exist e.g. enter an index of 6.\r\n\r\nWhat happened?  Did your program crash with something similar to this?\r\n\r\n![](./img/06b.png) \r\n\r\n\r\n##Menu Item 4:  Adding error checking\r\n\r\nIn the Driver class, make the following changes to implement error checking:\r\n\r\n![](./img/07.png) \r\n\r\n\r\nRun the project and test these three scenarios:\r\n\r\n- No products exist...try deleting a product.  The message \"No products\" should be displayed.\r\n\r\n- Create two products...try deleting a product at index 6.  A message similar to \"There is no product for this index number\" should be displayed.\r\n\r\n- With the two products created...try deleting a product at index 1.  The product is deleted.\r\n\r\n\r\n"
+    },
+  
+    {
+    "title": "Developing Shop V4.0 ",
+    "shortTitle": "03",
+    "contentMd" : "#Developing Shop V4.0 \r\n\r\nContinue working with ShopV4.0 in IntelliJ.  You will add the code to update a product, using menu option 3.\r\n\r\n![](./img/01.png) \r\n\r\n\r\n##Menu Item 3:  Updating a product\r\n\r\nIn the Driver class, make the following changes to implement case 3 (updating a product):\r\n\r\n![](./img/08.png) \r\n\r\n![](./img/09.png) \r\n\r\nRun the project.\r\n\r\nAdd a product using option 1.\r\n\r\nTest option 3 - try to update the product you just added.  \r\n\r\nDid it work?\r\n\r\nNow try to update a product that doesn't exist e.g. enter an index of 6.\r\n\r\nWhat happened?  Did your program crash like before?\r\n\r\n\r\n##Menu Item 3:  Adding error checking\r\n\r\nIn the Driver class, refactor the update method with the same error checking we used in the delete method i.e. first test if the ArrayList is not empty and then check that the entered index is valid.\r\n\r\nRun the project and test these three scenarios:\r\n\r\n- No products exist...try updating a product.  The message \"No products\" should be displayed.\r\n\r\n- Create two products...try updating a product at index 6.  A message similar to \"There is no product for this index number\" should be displayed.\r\n\r\n- With the two products created...try updating a product at index 1.  The product should be updated.\r\n\r\nSave and close this project.  \r\n\r\n\r\n"
+    },
+  
+    {
+    "title": "Menu Driven DVD Specification (Phase 1)",
+    "shortTitle": "DVD 1.0",
+    "contentMd" : "#Menu Driven DVD Specification (Phase 1)\r\n\r\nIn the previous practical, we worked on a new project called __DVDLibraryV1.0__.  This app presented the user with a simple menu for adding and listing DVD titles.  To refresh your memory on this project, please read the information below.\r\n\r\n\r\n##DVD class\r\n\r\nThe DVD class contained one instance field **title**, an empty default constructor and a getter and setter for the **title** field.  \r\n\r\nWe also wrote a second constructor that took in the title as a parameter and updated the instance field, **title**.  Finally, we wrote a toString method that formatted the object state to a user-friendly string.\r\n\r\n\r\n##Library class\r\n\r\nThe Library class contained one instance field called **dvds** that held an ArrayList of DVDs.  The default constructor instantiated this ArrayList.  \r\n\r\nWe wrote a method **add()** that accpeted a DVD object as a parameter. This method added the passed DVD object to the **dvds** ArrayList.\r\n\r\nWe also wrote a **listDVDs()** method that returned a String comprising the index number and the title of each DVD in the dvds ArrayList.  If there were no dvds in the ArrayList, the String \"No DVDs\" was returned.\r\n\r\n\r\n##Driver class\r\n\r\nThe Driver class contained an instance field called **library** that is of type **Library**.  \r\n\r\nA global Scanner object was created that could be used by all methods in the class.\r\n\r\nThe default constructor instantiated the **library** field and the Scanner object.\r\n\r\nWe wrote a private method called **addDVD()** that had a void return type.  This method read the title of the DVD from the user and added it (as a DVD object) to the ArrayList in the **Library** class.\r\n\r\nWe wrote a private method **mainMenu()** that had an int return type.  This method  displayed the name of the menu and the menu options (see Figure 1).  This method read the menu option that the user entered and returned it.\r\n\r\n![Figure 1: Menu for the DVD Library](./img/11.png) \r\n\r\nWe wrote a private method **run()** that had a void return type.  This method controlled the menu options i.e. it called the appropriate method when the user selected a menu option.\r\n\r\nFinally, we wrote a main method that created an instance of itself (i.e. the Driver class) and called the **run** method over this instance (see the code below).\r\n\r\n\r\n##Solution for DVD1.0\r\n\r\nIf you didn't complete DVD Phase 1, the solution [is here](archives/DVDLibraryV1.0.zip).\r\n\r\nIf you did complete it, open your DVD V1.0 code in IntelliJ.\r\n\r\n\r\n##Run and Test\r\n\r\nRun the DVD Phase 1 project.\r\n\r\nTest the code by adding a few DVD and listing them.  Try listing the DVDs when no DVDs have been entered (you can do this by restarting the app and listing without adding).\r\n\r\n"
+    },
+  
+    {
+    "title": "Menu Driven DVD Specification (Phase 2)",
+    "shortTitle": "DVD 2.0",
+    "contentMd" : "#Menu Driven DVD Specification (Phase 2)\r\n\r\nIn this practical, you will create a new project in IntelliJ and copy in the code from __DVDLibraryV1.0__.  You will then extend the code to allow the user to update and delete DVDs. \r\n\r\nCreate a new project called __DVDLibraryV2.0__ and copy the __src__ java files from __DVDLibraryV1.0__ to the __src__ folder in your new project,  __DVDLibraryV2.0__.\r\n\r\nNOTE:  a copy of the completed __DVDLibraryV1.0__ [is available here](archives/DVDLibraryV1.0.zip).\r\n\r\n\r\n##Update a DVD\r\n\r\nIn your Driver class:\r\n\r\n- add a third option to the menu:  3) Update a DVD.\r\n\r\n- in the switch statement, add a call to a new private method called updateDVD().\r\n\r\n- create an updateDVD() method that has a void return type.  This method should:\r\n    \r\n    - if DVDs exist in the ArrayList, list the DVDs and ask the user which one they would like to edit.  \r\n        \r\n    - if the user types in a valid index, ask the user to enter a new title for the DVD.  \r\n        \r\n    - retrieve the DVD at the specified index and update the title using the title mutator. \r\n\r\nIn your Library class, add an accessor for the dvs ArrayList:\r\n\r\n~~~\r\n    public ArrayList<DVD> getDVDs()\r\n    {\r\n        return dvds;\r\n    }\r\n~~~\r\n\r\nRun your code and test this code for the following three scenarios:\r\n\r\n- No DVDs exist...try updating a DVD. The message \"No DVDs\" should be displayed.\r\n\r\n- Create two DVDs...try updating a DVD at index 6. A message similar to \"There is no DVD for this index number\" should be displayed.\r\n\r\n- With the two DVDs created...try updating a DVD at index 1. The DVD should be updated.\r\n\r\n\r\n##Delete a DVD\r\n\r\nIn your driver class:\r\n\r\n- add a fourth option to the menu:  4) Delete a DVD.\r\n\r\n- in the switch statement, add a call to the deleteDVD() method.\r\n\r\n- create an deleteDVD() method that has a void return type.  This method should:\r\n    \r\n    - if DVDs exist in the ArrayList, list the DVDs and ask the user which one they would like to delete.  \r\n        \r\n    - if the user types in a valid index, delete the DVD at that index.  \r\n\r\nRun your code and test this code for the following three scenarios:\r\n\r\n- No DVDs exist...try deleting a DVD. The message \"No DVDs\" should be displayed.\r\n\r\n- Create two DVDs...try deleting a DVD at index 6. A message similar to \"There is no DVD for this index number\" should be displayed.\r\n\r\n- With the two DVDs created...try deleting a DVD at index 1. The DVD should be updated.\r\n\r\n\r\nSave and close your project."
+    },
+  
+    {
+    "title": "Debug",
+    "shortTitle": "Debug",
+    "contentMd" : "#Debug\r\n\r\nIn this step, you will copy the debugging steps that are laid out in the debug reference material associated with this lab.  For convenience, they are displayed here too.   \r\n\r\nDownload, extract and open [this code](archives/code-from-debug-lecture.zip) in IntelliJ.\r\n\r\n##Debugging the example from the reference material\r\n\r\n![](./img/12.png)\r\n\r\n![](./img/13.png)\r\n\r\n![](./img/14.png)\r\n\r\n![](./img/15.png)\r\n\r\n![](./img/16.png)\r\n\r\n![](./img/17.png)\r\n\r\n![](./img/18.png)\r\n\r\n![](./img/19.png)\r\n\r\n![](./img/20.png)\r\n\r\n![](./img/21.png)\r\n\r\n![](./img/22.png)\r\n\r\n![](./img/23.png)\r\n\r\n![](./img/24.png)\r\n\r\n![](./img/25.png)\r\n"
+    },
+  
+    {
+    "title": "Solutions",
+    "shortTitle": "Solutions",
+    "contentMd" : "#Solutions\r\n\r\nThe solution to ShopV3.0 [is here](archives/ShopV3.0.zip).\r\n\r\nThe solution to ShopV4.0 [is here](archives/ShopV4.0.zip).\r\n\r\nThe solution to DVD phase 1 [is here](archives/DVDLibraryV1.0.zip).\r\n\r\nThe solution to DVD phase 2 [is here](archives/DVDLibraryV2.0.zip).\r\n\r\nThe code from the [debug reference material is here](archives/code-from-debug-lecture.zip)\r\n\r\n\r\n"
+    }
+  
+  ]
+  }
+

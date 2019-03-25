@@ -1,0 +1,41 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-08",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Social Network app · Abstraction</p>",
+  "folder" : "book-1-abstraction",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "Objectives",
+    "shortTitle": "Lab-08",
+    "contentMd" : "#Objectives\r\n\r\nSocial Network app · Abstraction\r\n"
+    },
+  
+    {
+    "title": "Network-V5",
+    "shortTitle": "01",
+    "contentMd" : "#Network-V5\r\n\r\nIn this step, you will create version 5 of the Network system (our menu driven messaging system).  In this version, you will use abstraction in the inheritance hierarchy.\r\n\r\n\r\n##Abstraction in Network-V5\r\n\r\nIn IntelliJ, create a new project called Network-V5.\r\n\r\nCopy the following classes into this new project:\r\n\r\n    - [PhotoPost](archives/v4/PhotoPost.java)\r\n    - [MessagePost](archives/v4/MessagePost.java)\r\n    - [Post](archives/v4/Post.java)\r\n    - [NewsFeed](archives/v4/NewsFeed.java)\r\n    - [Driver](archives/v4/Driver.java)\r\n\r\n\r\nMake the Post class abstract and add an abstract method called *displayExtract()* to it. The return type of this method should be a String. \r\n\r\nIn Post's subclasses, you will need to provide the concrete implementation for this method; this will eliminate the compile errors that we have now generated!  \r\n\r\n###Message Post code:\r\n\r\n~~~java\r\n    public String displayExtract()\r\n    {\r\n        return \"Message extract: \"+ message.substring(0,10) + \"....\";\r\n    }\r\n~~~\r\n\r\n###PhotoPost code:\r\n\r\n~~~java\r\n    public String displayExtract()\r\n    {\r\n        return \"Photo caption: \" + caption.substring(0,10) + \"....\";\r\n    }\r\n~~~\r\n"
+    },
+  
+    {
+    "title": "Network-V5",
+    "shortTitle": "02",
+    "contentMd" : "#Network-V5\r\n\r\nIn this step, you will use the new method we just added.\r\n\r\n\r\n##NewsFeed\r\n\r\nIn your NewsFeed class, add the following method:\r\n\r\n~~~java\r\n    public String showExtract()\r\n    {\r\n        String str = \"\";\r\n        // display all posts\r\n        for(Post post : posts) {\r\n            str += post.displayExtract() + \"\\n\\n\";\r\n        }\r\n        return str;\r\n    }\r\n    \r\n~~~\r\n\r\n\r\n##Driver\r\n\r\nIn your Driver class, add a new menu option, number 4:\r\n\r\n~~~java\r\n\r\n    private int mainMenu() {\r\n        System.out.println(\"1) Add a Text Post\");\r\n        System.out.println(\"2) Add a Photo Post\");\r\n        System.out.println(\"3) List all Posts\");\r\n        System.out.println(\"4) List an extract of all Posts\");\r\n        System.out.println(\"0) Exit\");\r\n        System.out.print(\"==>>\");\r\n        int option = sc.nextInt();\r\n        return option;\r\n    }\r\n~~~\r\n\r\nThen, in the run() method, add a new option 4 to the switch statement:\r\n\r\n~~~java\r\n                switch (option) {\r\n                    case 1:\r\n                        addMessagePost();\r\n                        break;\r\n                    case 2:\r\n                        addPhotoPost();\r\n                        break;\r\n                    case 3:\r\n                        showPosts();\r\n                        break;\r\n                    case 4:\r\n                        showExtractPosts();\r\n                        break;\r\n                }\r\n~~~\r\n\r\nFinally, include this new method:\r\n\r\n~~~java\r\n   public void showExtractPosts() {\r\n        System.out.println(newsFeed.showExtract());\r\n    }\r\n~~~\r\n\r\n###Save and Test your Code\r\n\r\nSave your code.  \r\n\r\nRun your app.  Add a series of message and photo posts.  Then call option 3 to display all the posts.  Now call option 4 to display an extract of your posts.  You should now see the difference between the two menu options. \r\n\r\n###Solution\r\n\r\nSolution: [Network-V5](archives/network-solution-v5.zip). \r\n\r\n"
+    }
+  
+  ]
+  }
+

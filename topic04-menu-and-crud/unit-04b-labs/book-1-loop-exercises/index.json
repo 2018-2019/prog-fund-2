@@ -1,0 +1,47 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-04a",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>ArrayList · loops</p>",
+  "folder" : "book-1-loop-exercises",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "Objectives",
+    "shortTitle": "Lab-04a",
+    "contentMd" : "#Objectives\r\n\r\nArrayList · loops"
+    },
+  
+    {
+    "title": "Demo Exercise",
+    "shortTitle": "Demo",
+    "contentMd" : "#Demo Exercise\r\n\r\nThis step introduces a way to write and check your exercises on IntelliJ.\r\n\r\nFor each exercise, you should write the code in its own method and give it a similiar method header similar to this:\r\n\r\n~~~java    \r\n    private void simpleWhile()\r\n~~~\r\n\r\n\r\n##SimpleWhile Exercise\r\n\r\nPerform these steps:\r\n\r\n- In IntelliJ, create a new Project called **LoopExercises**.\r\n\r\n- Create a class in this Project called **Loops**.   In this class, add the following code:\r\n\r\n~~~java\r\nimport java.util.ArrayList;\r\nimport java.util.Scanner;\r\n\r\npublic class Loops {\r\n\r\n    ArrayList<String> strings;\r\n    Scanner input = new Scanner(System.in);\r\n\r\n    public static void main(String args[]){\r\n        Loops loops = new Loops();\r\n        loops.simpleWhile();\r\n    }\r\n\r\n    private void simpleWhile() {\r\n\r\n        System.out.println(\"This method will print 1 to 10 to the console:\");\r\n\r\n        int i = 1;\r\n        while (i <= 10){\r\n            System.out.println(i);\r\n            i++;\r\n        }\r\n    }\r\n~~~\r\n\r\nThis method, simpleWhile, will print out 1 to 10 to the console.  Note that it is invoked from the main method, just after the constructor.\r\n\r\nNote that Scanner and ArrayList objects are there for the exercises in the next step; we are not using them here."
+    },
+  
+    {
+    "title": "Exercises",
+    "shortTitle": "Exercises",
+    "contentMd" : "#Exercises\r\n\r\nAttempt the following exercises on loops.  For each exercise:\r\n\r\n- Add a method to the Loops class (as was done in the demo step).\r\n\r\n- use the global Scanner object to read in data from the user, if required.\r\n\r\n- call your writen method from the main class (and comment out calls to other methods).\r\n\r\n- Remember, the object of this lab is to give you practice with loops in an ArrayList context.  So it is important you utilise loops throughout.\r\n\r\n*You may need to refer back to your lecture notes during this lab*\r\n\r\n\r\n##Exercise 1 - n-times loops\r\n\r\nWrite a method to:\r\n\r\n- read in 6 Strings into an ArrayList of String (use an n-times while loop for this)\r\n- and then print the values out (use an n-times for loop here)\r\n\r\nCall this method exercise_1 and don't forget to instantiate the ArrayList (we have done it here for you):\r\n\r\n~~~java\r\n    private void exercise_1(){\r\n        strings = new ArrayList<>();\r\n        //code goes here!\r\n    }\r\n~~~\r\n\r\n\r\n##Exercise 2 - for each loop\r\n\r\nCopy your exercise_1 method and paste it as exercise_2.\r\n\r\nNow rewrite:\r\n\r\n- the reading of the strings to use an n-times for loop\r\n- and the printing of the value to use a for-each loop\r\n\r\nNow call this new method from the main method.  There should be no visible difference from the console perspective; we only changed the internal workings of the code.\r\n\r\n\r\n##Exercise 3 - sentinel based loops\r\n\r\nIn the previous exercises, we took in 6 strings.  In this one, we will use a sentinel to stop the input of Strings.  This will let the user decide how many Strings they want to enter.\r\n\r\nCopy your exercise_1 method and paste it as exercise_3.\r\n\r\nNow rewrite: \r\n\r\n- the reading of the strings to be controlled by a sentinel based while loop where the String \"-end\" ends the intake of data from the console.  Remember to use the .equals() method when testing for equality. \r\n\r\n- the printing of the strings to use a for each loop.\r\n\r\nYour console output should look something like this:\r\n\r\n![](./img/01.png)\r\n\r\n\r\n##Exercise 4 - flag based loops\r\n\r\nIn the previous exercise, we used a sentinel value to end the loop (i.e. \"-end\").  In this version, we will end the input when the user enters a string that **starts with** \"end\".  But we will construct it using a flag-based loop rather than a sentinel-based loop.  You can copy the exercise_3 method and paste it as exercise_4.  \r\nYour console output should look something like this:\r\n\r\n![](./img/02.png)\r\n\r\n"
+    },
+  
+    {
+    "title": "Solution",
+    "shortTitle": "Solution",
+    "contentMd" : "#Solution\r\n\r\nThe solution to these exercises [is here](archives/LoopExercises.zip).\r\n\r\n\r\n"
+    }
+  
+  ]
+  }
+

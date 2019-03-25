@@ -1,0 +1,47 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-06",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>ArrayList · HashMap · HashSet · Tokenise Strings · Random · Tech Support App</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "Objectives",
+    "shortTitle": "Lab-06",
+    "contentMd" : "#Objectives\r\n\r\nArrayList · HashMap · HashSet · Tokenise Strings · Random · Tech Support App \r\n\r\n"
+    },
+  
+    {
+    "title": "Tech Support App, V1 & V2 ",
+    "shortTitle": "01",
+    "contentMd" : "#Tech Support App, V1 & V2 \r\n\r\nIn this section, you will:\r\n\r\n- download the solution to Tech Support 1 that we covered in lectures. \r\n\r\n- familiarise yourself with the functionality and classes in the solution.\r\n\r\n- refactor the code so that the system replies with a random response from a list of pre-defined responses (Tech Support 2).\r\n\r\n\r\n\r\n##Tech Support 1\r\n\r\nDownload and extract the solution to [Tech Support 1](archives/tech_support_v1.zip).\r\n\r\nOpen it in IntelliJ and familiarise yourself with the code.  The app:\r\n\r\n- is a console based system.\r\n\r\n- is a textual dialog system i.e. you enter text on the console and the system will provide a response.\r\n    \r\n- responds with the same String, regardless of the content entered by the user **“That sounds interesting.  Tell me more…”**\r\n\r\n\r\n\r\n##Tech Support 2\r\n\r\nCreate a new project in IntelliJ and call it **Tech Support V2**.\r\n\r\nCopy the java files from **Tech Support V1** into **Tech Support V2**.\r\n\r\nMake the necessary changes to this project so that the system provides a random response from a list of pre-defined responses e.g.:\r\n\r\n- \"That sounds interesting. Tell me more...\"\r\n\r\n- \"I need a bit more information on that.\"\r\n\r\n- \"Have you checked that you do not have a dll conflict?\"\r\n\r\n- \"That is explained in the manual. Have you read the manual?“\r\n\r\n- \" That's not a bug, it's a feature!\"\r\n\r\n- \"Could you elaborate on that?“\r\n\r\n- etc.\r\n\r\n\r\nUse your lecture notes to support you in this task.\r\n\r\nTest your completed app to make sure it behaves as expected.\r\n\r\n\r\n"
+    },
+  
+    {
+    "title": "Tech Support App V3 ",
+    "shortTitle": "02",
+    "contentMd" : "#Tech Support App V3 \r\n\r\nIn this section, you will refactor the code from the previous step to have this functionality:\r\n\r\n- Based on the user input, the system provides a context-sensitive, generated response from a list of pre-defined responses.  If the system cannot find a suitable generated response, it returns a random one.\r\n\r\n\r\n##Tech Support 2\r\n\r\nIf you are not happy with your solution from the previous step, download and extract this version of [Tech Support V2](archives/tech_support_v2.zip).  \r\n\r\nOpen it in IntelliJ and familiarise yourself with the code.  \r\n\r\n\r\n##Tech Support 3\r\n\r\nCreate a new project in IntelliJ and call it **Tech Support V3**.\r\n\r\nCopy the java files from **Tech Support V2** into **Tech Support V3**.\r\n\r\nMake the necessary changes to have this functionality:\r\n\r\n- Based on the user input, the system provides a context-sensitive, generated response from a list of pre-defined responses.  If the system cannot find a suitable generated response, it returns a random one.\r\n\r\n\r\nUse your lecture notes to support you in this task.\r\n\r\nTest your completed app to make sure it behaves as expected.\r\n\r\n"
+    },
+  
+    {
+    "title": "Solutions",
+    "shortTitle": "Solutions",
+    "contentMd" : "#Solutions\r\n\r\nThe solution to the Tech Support V1 project [is here](archives/tech_support_v1.zip).\r\n\r\nThe solution to the Tech Support V2 project [is here](archives/tech_support_v2.zip).\r\n\r\nThe solution to the Tech Support V3 project [is here](archives/tech_support_v3.zip).\r\n\r\n\r\n"
+    }
+  
+  ]
+  }
+

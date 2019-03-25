@@ -1,0 +1,47 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "ShopV6.0",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Packages · Utilities · Parsing · ShopV6.0</p>",
+  "folder" : "book-1-shopv6",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "Objectives",
+    "shortTitle": "ShopV6.0",
+    "contentMd" : "#Objectives\r\n\r\nPackages · Utilities · Parsing · ShopV6.0"
+    },
+  
+    {
+    "title": "ShopV6.0 (using packages)",
+    "shortTitle": "Packages",
+    "contentMd" : "#ShopV6.0 (using packages)\r\n\r\nIn this step, you will download ShopV5.0 and use it to create a models-controllers-utils package structure for ShopV6.0. \r\n\r\n\r\n##Downloading ShopV5.0 Project\r\n\r\nDownload [ShopV5.0](archives/ShopV5.0.zip).  The structure of this project is like so:\r\n\r\n![ShopV5.0 project structure](./img/00.png) \r\n\r\n\r\n##Creating ShopV6.0 Project\r\n\r\nIn IntelliJ, create a new project called ShopV6.0.\r\n\r\nTo do this, right-click on the **src** folder and select **New**, followed by **Package**.  Enter “models” as the package name.\r\n\r\nRepeat this process to create two more packages: “controllers” and “utils”.\r\n\r\nCopy the ShopV5.0 files into the ShopV6.0 project to the locations specified in the screen shot below (remember to copy in xstream too).\r\n\r\n![ShopV6.0 project structure](./img/01.png) \r\n\r\nWhen we have copied all the existing code to this new format, you can see above that we have errors!  \r\n\r\nThe problem is that the Product class cannot be found in the Driver and the Store classes (because they are stored in a different package):\r\n\r\n![ShopV6.0 Errors](./img/02.png) \r\n\r\nTo fix this, we need to **import models.product;** into both the Driver and Store.  And **import utils.ScannerInput;** into the Driver. Hint: You can use the Alt+Enter functionality to fix this. \r\n\r\nThe errors should now be gone:\r\n\r\n![ShopV6.0 project structure](./img/03.png) \r\n\r\n\r\n##Testing the app\r\n\r\n- Run the app to make sure that all works ok.\r\n\r\n"
+    },
+  
+    {
+    "title": "ShopV6.0 (updating ScannerInput class)",
+    "shortTitle": "ScannerInput",
+    "contentMd" : "#ShopV6.0 (updating ScannerInput class)\r\n\r\nIn this step, you will continue working on ShopV6.0 and add more methods to the ScannerInput class (we first encountered this in the XML persistence lab).\r\n\r\n\r\n##ScannerInput class\r\n\r\nCurrently our ScannerInput class looks like this:\r\n\r\n~~~java\r\npackage utils;\r\n\r\nimport java.util.Scanner;\r\n\r\npublic class ScannerInput {\r\n\r\n    public static int readNextInt(String prompt) {\r\n        do {\r\n            var scanner = new Scanner(System.in);\r\n            try {\r\n                System.out.print(prompt);\r\n                return Integer.parseInt(scanner.next());\r\n            }\r\n            catch (NumberFormatException e) {\r\n                System.err.println(\"\\tEnter a number please.\");\r\n            }\r\n        }  while (true);\r\n    }\r\n\r\n    public static double readNextDouble(String prompt) {\r\n        do {\r\n            var scanner = new Scanner(System.in);\r\n            try{\r\n                System.out.print(prompt);\r\n                return Double.parseDouble(scanner.next());\r\n            }\r\n            catch (NumberFormatException e) {\r\n                System.err.println(\"\\tEnter a number please.\");\r\n            }\r\n        }  while (true);\r\n    }\r\n}\r\n~~~\r\n\r\nWe are using it to read *int* and *double* data from the console.  \r\n\r\nHowever we are then using, in the Driver class, the standard *Scanner* to read *String* and *char* data e.g.:\r\n\r\n~~~java\r\n\r\n\t//instance field\r\n\tprivate Scanner input = new Scanner(System.in);\r\n\r\n    //sample console read of String data\r\n    System.out.print(\"Enter the Product Name:  \");\r\n    String productName = input.nextLine();\r\n\r\n~~~  \r\n\r\nWe will now update the *ScannerInput* class to read **ALL** input from the user.  We can then remove the *Scanner* class declaration in from the Driver class and use *ScannerInput* throughout instead.\r\n\r\n\r\n##Reading a String\r\n\r\nAdd the following method to the ScannerInput class (note, we do not have to do any validation on the String input):\r\n\r\n~~~java\r\n\tpublic static String validNextLine(String prompt) {\r\n\t\tScanner input = new Scanner(System.in);\r\n\t\tSystem.out.print(prompt);\r\n\t\treturn input.nextLine();\r\n\t}\r\n~~~\r\n\r\nNow return to your Driver class and replace all *input.nextLine()* reads with this *ScannerInput.validNextLine* read.  For example, the following read:\r\n\r\n~~~java\r\n    //sample console read of String data\r\n    System.out.print(\"Enter the Product Name:  \");\r\n    String productName = input.nextLine();\r\n~~~\r\n\r\nwould be replaced with:\r\n\r\n~~~java\r\nString productName = ScannerInput.validNextLine(\"Enter the Product Name:  \");\r\n~~~\r\n\r\n\r\n##Reading a char\r\n\r\nWe will now repeat this process for reading a *char*.\r\n\r\nAdd the following method to the ScannerInput class (note, we do not have to do any validation on the char input):\r\n\r\n~~~java\r\n\tpublic static char validNextChar(String prompt) {\r\n\t\tScanner input = new Scanner(System.in);\r\n\t\tSystem.out.print(prompt);\r\n\t\treturn input.next().charAt(0);\r\n\t}\r\n~~~\r\n\r\nNow return to your Driver class and replace all *input.next().charAt(0)* reads with this *ScannerInput.validNextChar* read.  For example, the following read:\r\n\r\n~~~java\r\n    //sample console read of String data\r\nSystem.out.print(\"Is this product in your current line (y/n): \");\r\n        char currentProduct = input.next().charAt(0);\r\n~~~\r\n\r\nwould be replaced with:\r\n\r\n~~~java\r\nchar currentProduct = ScannerInput.validNextChar(\"Is this product in your current line (y/n): \");\r\n~~~\r\n\r\n\r\n##Scanner\r\n\r\nNow delete the Scanner object from your Driver class.  Once you have replaced all of the Scanner object reads, you should get no error here.\r\n\r\n\r\n##Testing the app\r\n\r\nRun the app to make sure that all works ok.\r\n\r\nWhen testing the app, you might notice that some dummy reads for emptying the buffer are now causing a problem!\r\n\r\nWe can get rid of these now and, as we are creating a new Scanner object for each console read, we don’t have to worry about emptying our buffers anymore! \r\n\r\n\r\n"
+    },
+  
+    {
+    "title": "Solution",
+    "shortTitle": "Solution",
+    "contentMd" : "#Solution\r\n\r\nThe solution for ShopV6.0 is [available here](archives/ShopV6.0.zip).\r\n\r\n"
+    }
+  
+  ]
+  }
+

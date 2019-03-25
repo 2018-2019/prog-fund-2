@@ -1,0 +1,1184 @@
+
+
+
+  {
+  
+  
+    "properties" : {"highlightstyle":"railscasts","courseurl":"http://2018-2019.github.io/prog-fund-2/","credits":"Dr. Siobhan Drohan and Ms. Mairead Meagher, WIT"},
+  
+  "type" : "course",
+  "title" : " Programming Fundamentals 2 ",
+  "img" : "course.png",
+  "videoid" : "",
+  "objectives" : "<p>This module follows on from your semester 1 module, Programming Fundamentals 1.</p>",
+  "folder" : "prog-fund-2",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "topics" : [  {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " Assignments  ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "topic00-assignments",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Assignment1",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Based on materials contained in the first 5 topics of slide decks and labs.  It is worth 50% of your overall grade for the module.</p>",
+  "folder" : "book-a",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Assignment2",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Assignment is based on materials covered in Programming Fundamentals 2 (with a main focus on Inheritance, Abstraction and Polymorphism).  It is worth 50% of your overall grade for the module.</p>",
+  "folder" : "book-b",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "1: IntelliJ and Basic I/O ",
+  "img" : "topic.png",
+  "videoid" : "",
+  "objectives" : "<p>IntelliJ · Java Virtual Machine (JVM) · main method · Scanner · OO recap</p>",
+  "folder" : "topic01-IntelliJ-JVM-and-IO",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-introduction-jvm/a-introduction-jvm.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Lectures</p>",
+  "folder" : "unit-01a-introduction",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Introduction ",
+  "img" : "a-introduction-jvm.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Content · Assessment · Java Virtual Machine (JVM) · bytecode · javac · main method</p>",
+  "folder" : "talk-1-introduction-jvm",
+  "link" : "a-introduction-jvm.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "OO Recap ",
+  "img" : "b-oo-recap.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Objects · Classes · Constructors · Accessors · Mutators · toString</p>",
+  "folder" : "talk-2-oo-recap",
+  "link" : "b-oo-recap.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Scanner IO ",
+  "img" : "e-scanner-io.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Scanner · Console I/O</p>",
+  "folder" : "talk-3-scanner-io",
+  "link" : "e-scanner-io.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "talk-1-lab-intro/a-lab-intro.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-01b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Lab Introduction ",
+  "img" : "a-lab-intro.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Java Development Kit (JDK) · bytecode · main method · Integrated Development Environment (IDE) · IntelliJ</p>",
+  "folder" : "talk-1-lab-intro",
+  "link" : "a-lab-intro.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-01a",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Install JDK 11 + IntelliJ Idea (on own computer)</p>",
+  "folder" : "book-a-install",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-01b",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>IntelliJ · Java Virtual Machine (JVM) · main method · Scanner · OO recap</p>",
+  "folder" : "book-b",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 2: Primitive Arrays ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>primitive arrays · basic menu driven systems</p>",
+  "folder" : "topic02-primitive-arrays",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-array-recap/a-array-recap.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Lectures</p>",
+  "folder" : "unit-02a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Array Recap ",
+  "img" : "a-array-recap.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>primitive array · classes</p>",
+  "folder" : "talk-1-array-recap",
+  "link" : "a-array-recap.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "ShopV2.0 ",
+  "img" : "a-array-product.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Primitive Array of Product</p>",
+  "folder" : "talk-2-array-product",
+  "link" : "a-array-product.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "talk-1-basic-menu/c-basic-menu.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-02b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Lab Introduction ",
+  "img" : "c-basic-menu.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>ShopV2.2 · Menu Driven Console App</p>",
+  "folder" : "talk-1-basic-menu",
+  "link" : "c-basic-menu.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-02a",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Scanner · primitive arrays · counter-controlled loops</p>",
+  "folder" : "book-1-array-exercises",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-02b",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>ShopV2.0 (primitive array) · ShopV2.1 (methods operating on arrays) · ShopV2.2 (console menu system)</p>",
+  "folder" : "book-2-shop-v2.x",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 3: ArrayLists ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Collections · Generic Classes · ArrayList · loops · for each loop · algorithms for collections</p>",
+  "folder" : "topic03-arraylists",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-intro-to-arraylists/a-intro-to-arraylists.jpg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-03a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Intro to ArrayList ",
+  "img" : "a-intro-to-arraylists.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Collections · Generic Classes · ArrayList · loops · for each loop</p>",
+  "folder" : "talk-1-intro-to-arraylists",
+  "link" : "a-intro-to-arraylists.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "More on ArrayList ",
+  "img" : "b-more-on-arraylists.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>ArrayList · ShopV3.0 · algorithms</p>",
+  "folder" : "talk-2-more-on-arraylists",
+  "link" : "b-more-on-arraylists.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "book-1-arraylists/img/main.png",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-03b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-03",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Collections · Generic Classes · ArrayList · loops · for each loop · Menu Driven Apps</p>",
+  "folder" : "book-1-arraylists",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 4: Menu Driven Apps and Persistence ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Switch · Loops · Menus · persistence · CRUD · debugging</p>",
+  "folder" : "topic04-menu-and-crud",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-menu-driven-systems/a-menu-driven-systems.jpg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-04a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Menu Driven Systems ",
+  "img" : "a-menu-driven-systems.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Switch · Loops · Menus</p>",
+  "folder" : "talk-1-menu-driven-systems",
+  "link" : "a-menu-driven-systems.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "CRUD Process ",
+  "img" : "b-CRUD-process.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>CRUD · Create · Read · Update · Delete</p>",
+  "folder" : "talk-2-CRUD",
+  "link" : "b-CRUD-process.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "talk-1-debugger/c-debugging.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-04b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : " Debugging ",
+  "img" : "c-debugging.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Bug · Debugging · IntelliJ Debugger</p>",
+  "folder" : "talk-1-debugger",
+  "link" : "c-debugging.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-04a",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>ArrayList · loops</p>",
+  "folder" : "book-1-loop-exercises",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-04b",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>CRUD · ShopV4.0 · DVDLibraryV2.0 · Debugging</p>",
+  "folder" : "book-2-crud",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 5: Persistence (XML & Exceptions) ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Streaming · XML · Exception Handling · Validate User Input · Static · JavaDoc · ShopV5.0 · DVD3.0</p>",
+  "folder" : "topic05-persistence-xml-exceptions",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-XML/a-XML.jpg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-05a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Introduction to XML ",
+  "img" : "a-XML.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>XML · Serialisation</p>",
+  "folder" : "talk-1-XML",
+  "link" : "a-XML.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "XML and Java ",
+  "img" : "b-CRUD-XML.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>We will show you how to serialize objects from Java to an XML file and read them back into your Java program.</p>",
+  "folder" : "talk-2-CRUD-XML",
+  "link" : "b-CRUD-XML.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Exception Handling ",
+  "img" : "c-exceptions.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>We will show you, by using try and catch blocks, how to stop your program from crashing when invalid user input is entered.</p>",
+  "folder" : "talk-3-exceptions",
+  "link" : "c-exceptions.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Miscellaneous Concepts ",
+  "img" : "d-misc-concepts.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>We will cover some miscellaneous concepts such as static variables, static methods, javadoc and storing calculated data.</p>",
+  "folder" : "talk-4-misc-concepts",
+  "link" : "d-misc-concepts.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "book-xml-exceptions/img/main.png",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-05b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-05",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>XML · Exception Handling · Validate User Input · ShopV5.0 · DVD3.0</p>",
+  "folder" : "book-xml-exceptions",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 6: Collections (Map and Set) ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Collections · Map · Set · Tech Support App</p>",
+  "folder" : "topic06-collections-map-set",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-tech-support-v1/a-tech-support-V1.jpg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-06a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Tech Support System V1 ",
+  "img" : "a-tech-support-V1.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>console-based tech support system · respond with &quot;That sounds interesting. Tell me more...&quot;</p>",
+  "folder" : "talk-1-tech-support-v1",
+  "link" : "a-tech-support-V1.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Tech Support System V2 ",
+  "img" : "b-tech-support-V2.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>console-based tech support system · randomised responses for the user</p>",
+  "folder" : "talk-2-tech-support-v2",
+  "link" : "b-tech-support-V2.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Tech Support System V3 ",
+  "img" : "c-tech-support-V3.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>console-based tech support system · context sensitive response, based on input</p>",
+  "folder" : "talk-3-tech-support-v3",
+  "link" : "c-tech-support-V3.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "book/img/main.png",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-06b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-06",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>ArrayList · HashMap · HashSet · Tokenise Strings · Random · Tech Support App</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 7: Inheritance and Polymorphism ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Inheritance · <em>is-a</em> relationship · Polymorphism (many shapes!) · Overriding</p>",
+  "folder" : "topic07-inher-polym",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-inheritance/a-inheritance.jpg",
+  "videoid" : "",
+  "objectives" : "",
+  "folder" : "unit-07a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : " Inheritance ",
+  "img" : "a-inheritance.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Inheritance · is-a · superclass · subclass · NetworkV1 · NetworkV2 · NetworkV3 · subtyping · substitution · polymorphic variables · casting · wrapper classes · autoboxing · unboxing · Object class</p>",
+  "folder" : "talk-1-inheritance",
+  "link" : "a-inheritance.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : " Exploring Polymorphism ",
+  "img" : "b-exploring-polymorphism.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>inheritance · polymorphism · overriding · static type · dynamic type · dynamic method lookup · protected access · Object class</p>",
+  "folder" : "talk-2-polymorphism",
+  "link" : "b-exploring-polymorphism.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "book/img/main.png",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-07b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-07",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Social Network app · Inheritance · Polymorphism · Overriding</p>",
+  "folder" : "book",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 8: Abstraction ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Social Network app · Abstraction · Inheritance Hierarchy</p>",
+  "folder" : "topic08-abstraction",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-abstraction/a-prog-fund-2-abstraction.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Lectures</p>",
+  "folder" : "unit-08a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : " Abstraction ",
+  "img" : "a-prog-fund-2-abstraction.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Social Network app · Abstraction · Inheritance Hierarchy</p>",
+  "folder" : "talk-1-abstraction",
+  "link" : "a-prog-fund-2-abstraction.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "book-1-abstraction/img/main.png",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-08b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-08",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Social Network app · Abstraction</p>",
+  "folder" : "book-1-abstraction",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 9: Interfaces ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Abstraction · Deadly Diamond of Death · Interfaces · Implementing Interfaces · Social Network App</p>",
+  "folder" : "topic09-interfaces",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-ddd/a-deadly-diamond-of-death.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Lectures</p>",
+  "folder" : "unit-09a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Deadly Diamond of Death ",
+  "img" : "a-deadly-diamond-of-death.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Abstraction · Deadly Diamond of Death</p>",
+  "folder" : "talk-1-ddd",
+  "link" : "a-deadly-diamond-of-death.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Introduction to Interfaces ",
+  "img" : "b-intro-to-interfaces.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Abstraction · Interfaces · Syntax of Interfaces · Implementing Interfaces · Simple Example</p>",
+  "folder" : "talk-2-intro-to-interfaces",
+  "link" : "b-intro-to-interfaces.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "More on Interfaces ",
+  "img" : "c-more-on-interfaces.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Interfaces · Social Network App · Interfaces and Collections</p>",
+  "folder" : "talk-3-more-on-interfaces",
+  "link" : "c-more-on-interfaces.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "book-interfaces/img/main.png",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-09b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-09",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Abstraction · Interfaces · Social Network App · Interfaces and Collections</p>",
+  "folder" : "book-interfaces",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
+    
+    
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : "Supplementary Materials ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>You can ignore these materials if you wish · Packages · Utililties · ShopV6.0 · Parsing · Wrapping</p>",
+  "folder" : "topic11-additional-material",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-packages-utilities/a-packages-utilities.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Lectures</p>",
+  "folder" : "unit-11a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : " Packages, Utilities and Parsing ",
+  "img" : "a-packages-utilities.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Packages · Utilities · Parsing · Wrapper Classes · ShopV6.0</p>",
+  "folder" : "talk-1-packages-utilities",
+  "link" : "a-packages-utilities.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "book-1-shopv6/img/main.png",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-11b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "ShopV6.0",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Packages · Utilities · Parsing · ShopV6.0</p>",
+  "folder" : "book-1-shopv6",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  }
+ ]
+  }
+

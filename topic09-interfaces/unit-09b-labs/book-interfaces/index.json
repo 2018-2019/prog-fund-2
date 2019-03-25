@@ -1,0 +1,47 @@
+
+
+
+  {
+  
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-09",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Abstraction · Interfaces · Social Network App · Interfaces and Collections</p>",
+  "folder" : "book-interfaces",
+  "link" : "index.html",
+  "los": [
+   ]
+,
+  "chapters" : [
+  
+    {
+    "title": "Objectives",
+    "shortTitle": "Lab-09",
+    "contentMd" : "#Objectives\r\n\r\nAbstraction · Interfaces · Social Network App · Interfaces and Collections\r\n\r\n"
+    },
+  
+    {
+    "title": "Using Pre-defined Interfaces",
+    "shortTitle": "NetworkV6",
+    "contentMd" : "#Using Pre-defined Interfaces\r\n\r\nIn this practical, you will use the Collections Framework Interfaces in the Network app.\r\n\r\n\r\n##Creating Network-V6\r\n\r\n- Create a new project called Network-V6 in IntelliJ.\r\n\r\n- These are the solution files from Network-V5.  Copy them into the project:\r\n\r\n    - [Driver.java](archives/Driver.java)\r\n\r\n    - [MessagePost.java](archives/MessagePost.java)\r\n\r\n    - [NewsFeed.java](archives/NewsFeed.java)\r\n\r\n    - [PhotoPost.java](archives/PhotoPost.java)\r\n\r\n    - [Post.java](archives/Post.java)\r\n\r\n\r\n##Using the List Interface\r\n\r\nIn this section, you may need to refer to your lecture slides for support (i.e. the third slide deck).\r\n\r\nIn Post.java:\r\n\r\n- define the **comments** ArrayList to be a List.\r\n\r\n- create a getter and setter for the **comments** field.\r\n\r\n- import java.util.List;\r\n\r\n\r\nIn NewsFeed.java:\r\n\r\n- define the **posts** ArrayList to be a List.\r\n\r\n- import java.util.List;\r\n\r\n\r\nRun you app and test your code to make sure your refactoring did not break anything.\r\n\r\nSave your work."
+    },
+  
+    {
+    "title": "Implementing INewsFeed",
+    "shortTitle": "NetworkV7",
+    "contentMd" : "#Implementing INewsFeed\r\n\r\nIn this step, you will create the *INewsFeed* interface and implement it in NewsFeed. In this section, you may need to refer to your lecture slides for support (i.e. the third slide deck).\r\n\r\n\r\n##Creating the New Project\r\n\r\nIn IntelliJ, create a new project called *Network-V7* and paste the *Network-V6* src files into it.\r\n\r\nNote: the solution to V6 is in the next step if you need it.\r\n\r\n\r\n##Creating INewsFeed.java\r\n\r\nWithin the **src** folder, create a new Interface called **INewsFeed.java**.  If you don't see the option to create an interface, create a new *Java Class* and when the dialog box appears, choose *Interface* as the *kind* from the drop-down box.\r\n\r\n![](./img/01.png)\r\n\r\n\r\nAdd the following abstract methods into the Interface:\r\n\r\n~~~java\r\n    void addPost(Post post);\r\n    void deletePost(int index);\r\n    String show();\r\n~~~\r\n\r\nAny class implementing this new interface will have to provide concrete implementations fo reach of these abstract methods.  This is how we can force a class to adhere to a design we want i.e. code to contract.\r\n\r\n\r\n##Updating NewsFeed.java\r\n\r\nImplement the INewsFeed interface in the NewsFeed class i.e.\r\n\r\n~~~java\r\npublic class NewsFeed implements INewsFeed\r\n~~~\r\n\r\nYou will notice immediately that IntelliJ starts complaining...we either need to make the Newsfeed class abstract, or provide a concrete implemention for each method listed in the interface:\r\n\r\n![](./img/02.png)\r\n\r\nPreviously, our code contained these concrete methods:\r\n\r\n- void addPost(Post post)\r\n- String show()\r\n\r\nSo IntelliJ isn't complaining about these.  However, there is no concrete implementation for the deletePost method:\r\n\r\n![](./img/03.png)\r\n\r\nWe will now provide an implementation for this method (note you can select the *implement method* option displayed when you hover over the red light bulb - this will create a method stub for you):\r\n\r\n~~~java\r\n    @Override\r\n    public void deletePost(int index) {\r\n        \r\n    }\r\n~~~\r\n\r\nAdd the code to remove the object stored in the **posts** collection at the specified index.  Remember to verify that the index is valid before trying to remove it.\r\n\r\n\r\n##Some maintenance on an existing method:\r\n\r\nIn the implementation of the **show** method, add the index number of the post to the output string (in the next step, we will ask the user to enter the index number of the post they wish to delete).\r\n\r\n\r\n##Updating Driver.java\r\n\r\nAdd an option 5 to the menu...*Delete a Post*\r\n\r\nWhen this option is selected, a new method called **deletePost()** should be called.  This method should:\r\n\r\n- display all the stored posts\r\n\r\n- ask the user to enter the index number of the post they wish to delete\r\n\r\n- delete the post at the specified index\r\n\r\nNote: don't worry about robustness in this lab e.g. exception handling on the input, etc.  The purpose of this lab is just to introduce you to Interfaces in the simplest form possible.\r\n\r\nTest the delete aspect of your code; is all working as expected?\r\n\r\n"
+    },
+  
+    {
+    "title": "Solutions",
+    "shortTitle": "Solutions",
+    "contentMd" : "#Solutions\r\n\r\nThe solution for Network-V6 can be found [here ](archives/Network-V6.zip).\r\n\r\nThe solution for Network-V7 can be found [here ](archives/Network-V7.zip).\r\n\r\n"
+    }
+  
+  ]
+  }
+
