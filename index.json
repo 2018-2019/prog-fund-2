@@ -7,7 +7,7 @@
     "properties" : {"highlightstyle":"railscasts","courseurl":"http://2018-2019.github.io/prog-fund-2/","credits":"Dr. Siobhan Drohan and Ms. Mairead Meagher, WIT"},
   
   "type" : "course",
-  "title" : " Programming Fundamentals 2 ",
+  "title" : " Programming Fundamentals 2 ",
   "img" : "course.png",
   "videoid" : "",
   "objectives" : "<p>This module follows on from your semester 1 module, Programming Fundamentals 1.</p>",
@@ -18,12 +18,11 @@
 ,
   "topics" : [  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " Assignments  ",
+  "title" : " Assignments  ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "",
@@ -67,12 +66,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : "1: IntelliJ and Basic I/O ",
+  "title" : "1: IntelliJ and Basic I/O ",
   "img" : "topic.png",
   "videoid" : "",
   "objectives" : "<p>IntelliJ · Java Virtual Machine (JVM) · main method · Scanner · OO recap</p>",
@@ -98,7 +96,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Introduction ",
+  "title" : "Introduction ",
   "img" : "a-introduction-jvm.jpg",
   "videoid" : "none",
   "objectives" : "<p>Content · Assessment · Java Virtual Machine (JVM) · bytecode · javac · main method</p>",
@@ -114,7 +112,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "OO Recap ",
+  "title" : "OO Recap ",
   "img" : "b-oo-recap.jpg",
   "videoid" : "none",
   "objectives" : "<p>Objects · Classes · Constructors · Accessors · Mutators · toString</p>",
@@ -130,7 +128,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Scanner IO ",
+  "title" : "Scanner IO ",
   "img" : "e-scanner-io.jpg",
   "videoid" : "none",
   "objectives" : "<p>Scanner · Console I/O</p>",
@@ -162,7 +160,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Lab Introduction ",
+  "title" : "Lab Introduction ",
   "img" : "a-lab-intro.jpg",
   "videoid" : "none",
   "objectives" : "<p>Java Development Kit (JDK) · bytecode · main method · Integrated Development Environment (IDE) · IntelliJ</p>",
@@ -212,12 +210,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 2: Primitive Arrays ",
+  "title" : " 2: Primitive Arrays ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "<p>primitive arrays · basic menu driven systems</p>",
@@ -243,7 +240,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Array Recap ",
+  "title" : "Array Recap ",
   "img" : "a-array-recap.jpg",
   "videoid" : "none",
   "objectives" : "<p>primitive array · classes</p>",
@@ -259,7 +256,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "ShopV2.0 ",
+  "title" : "ShopV2.0 ",
   "img" : "a-array-product.jpg",
   "videoid" : "none",
   "objectives" : "<p>Primitive Array of Product</p>",
@@ -291,7 +288,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Lab Introduction ",
+  "title" : "Lab Introduction ",
   "img" : "c-basic-menu.jpg",
   "videoid" : "none",
   "objectives" : "<p>ShopV2.2 · Menu Driven Console App</p>",
@@ -341,12 +338,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 3: ArrayLists ",
+  "title" : " 3: ArrayLists ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "<p>Collections · Generic Classes · ArrayList · loops · for each loop · algorithms for collections</p>",
@@ -359,7 +355,7 @@
     "properties" : {},
   
   "type" : "unit",
-  "title" : "Lectures ",
+  "title" : "Lectures ",
   "img" : "talk-1-intro-to-arraylists/a-intro-to-arraylists.jpg",
   "videoid" : "",
   "objectives" : "",
@@ -372,7 +368,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Intro to ArrayList ",
+  "title" : "Intro to ArrayList ",
   "img" : "a-intro-to-arraylists.jpg",
   "videoid" : "none",
   "objectives" : "<p>Collections · Generic Classes · ArrayList · loops · for each loop</p>",
@@ -388,7 +384,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "More on ArrayList ",
+  "title" : "More on ArrayList ",
   "img" : "b-more-on-arraylists.jpg",
   "videoid" : "none",
   "objectives" : "<p>ArrayList · ShopV3.0 · algorithms</p>",
@@ -438,12 +434,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 4: Menu Driven Apps and Persistence ",
+  "title" : " 4: Menu Driven Apps and Persistence ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "<p>Switch · Loops · Menus · persistence · CRUD · debugging</p>",
@@ -456,7 +451,7 @@
     "properties" : {},
   
   "type" : "unit",
-  "title" : "Lectures ",
+  "title" : "Lectures ",
   "img" : "talk-1-menu-driven-systems/a-menu-driven-systems.jpg",
   "videoid" : "",
   "objectives" : "",
@@ -469,7 +464,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Menu Driven Systems ",
+  "title" : "Menu Driven Systems ",
   "img" : "a-menu-driven-systems.jpg",
   "videoid" : "none",
   "objectives" : "<p>Switch · Loops · Menus</p>",
@@ -485,7 +480,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "CRUD Process ",
+  "title" : "CRUD Process ",
   "img" : "b-CRUD-process.jpg",
   "videoid" : "none",
   "objectives" : "<p>CRUD · Create · Read · Update · Delete</p>",
@@ -517,7 +512,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : " Debugging ",
+  "title" : " Debugging ",
   "img" : "c-debugging.jpg",
   "videoid" : "none",
   "objectives" : "<p>Bug · Debugging · IntelliJ Debugger</p>",
@@ -567,12 +562,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 5: Persistence (XML & Exceptions) ",
+  "title" : " 5: Persistence (XML & Exceptions) ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "<p>Streaming · XML · Exception Handling · Validate User Input · Static · JavaDoc · ShopV5.0 · DVD3.0</p>",
@@ -585,7 +579,7 @@
     "properties" : {},
   
   "type" : "unit",
-  "title" : "Lectures ",
+  "title" : "Lectures ",
   "img" : "talk-1-XML/a-XML.jpg",
   "videoid" : "",
   "objectives" : "",
@@ -598,7 +592,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Introduction to XML ",
+  "title" : "Introduction to XML ",
   "img" : "a-XML.jpg",
   "videoid" : "none",
   "objectives" : "<p>XML · Serialisation</p>",
@@ -614,7 +608,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "XML and Java ",
+  "title" : "XML and Java ",
   "img" : "b-CRUD-XML.jpg",
   "videoid" : "none",
   "objectives" : "<p>We will show you how to serialize objects from Java to an XML file and read them back into your Java program.</p>",
@@ -630,7 +624,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Exception Handling ",
+  "title" : "Exception Handling ",
   "img" : "c-exceptions.jpg",
   "videoid" : "none",
   "objectives" : "<p>We will show you, by using try and catch blocks, how to stop your program from crashing when invalid user input is entered.</p>",
@@ -646,7 +640,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Miscellaneous Concepts ",
+  "title" : "Miscellaneous Concepts ",
   "img" : "d-misc-concepts.jpg",
   "videoid" : "none",
   "objectives" : "<p>We will cover some miscellaneous concepts such as static variables, static methods, javadoc and storing calculated data.</p>",
@@ -665,7 +659,7 @@
     "properties" : {},
   
   "type" : "unit",
-  "title" : "Labs ",
+  "title" : "Labs ",
   "img" : "book-xml-exceptions/img/main.png",
   "videoid" : "",
   "objectives" : "",
@@ -696,12 +690,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 6: Collections (Map and Set) ",
+  "title" : " 6: Collections (Map and Set) ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "<p>Collections · Map · Set · Tech Support App</p>",
@@ -714,7 +707,7 @@
     "properties" : {},
   
   "type" : "unit",
-  "title" : "Lectures ",
+  "title" : "Lectures ",
   "img" : "talk-1-tech-support-v1/a-tech-support-V1.jpg",
   "videoid" : "",
   "objectives" : "",
@@ -727,7 +720,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Tech Support System V1 ",
+  "title" : "Tech Support System V1 ",
   "img" : "a-tech-support-V1.jpg",
   "videoid" : "none",
   "objectives" : "<p>console-based tech support system · respond with &quot;That sounds interesting. Tell me more...&quot;</p>",
@@ -743,7 +736,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Tech Support System V2 ",
+  "title" : "Tech Support System V2 ",
   "img" : "b-tech-support-V2.jpg",
   "videoid" : "none",
   "objectives" : "<p>console-based tech support system · randomised responses for the user</p>",
@@ -759,7 +752,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Tech Support System V3 ",
+  "title" : "Tech Support System V3 ",
   "img" : "c-tech-support-V3.jpg",
   "videoid" : "none",
   "objectives" : "<p>console-based tech support system · context sensitive response, based on input</p>",
@@ -809,12 +802,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 7: Inheritance and Polymorphism ",
+  "title" : " 7: Inheritance and Polymorphism ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "<p>Inheritance · <em>is-a</em> relationship · Polymorphism (many shapes!) · Overriding</p>",
@@ -827,7 +819,7 @@
     "properties" : {},
   
   "type" : "unit",
-  "title" : "Lectures ",
+  "title" : "Lectures ",
   "img" : "talk-1-inheritance/a-inheritance.jpg",
   "videoid" : "",
   "objectives" : "",
@@ -840,7 +832,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : " Inheritance ",
+  "title" : " Inheritance ",
   "img" : "a-inheritance.jpg",
   "videoid" : "none",
   "objectives" : "<p>Inheritance · is-a · superclass · subclass · NetworkV1 · NetworkV2 · NetworkV3 · subtyping · substitution · polymorphic variables · casting · wrapper classes · autoboxing · unboxing · Object class</p>",
@@ -856,7 +848,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : " Exploring Polymorphism ",
+  "title" : " Exploring Polymorphism ",
   "img" : "b-exploring-polymorphism.jpg",
   "videoid" : "none",
   "objectives" : "<p>inheritance · polymorphism · overriding · static type · dynamic type · dynamic method lookup · protected access · Object class</p>",
@@ -906,12 +898,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 8: Abstraction ",
+  "title" : " 8: Abstraction ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "<p>Social Network app · Abstraction · Inheritance Hierarchy</p>",
@@ -937,7 +928,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : " Abstraction ",
+  "title" : " Abstraction ",
   "img" : "a-prog-fund-2-abstraction.jpg",
   "videoid" : "none",
   "objectives" : "<p>Social Network app · Abstraction · Inheritance Hierarchy</p>",
@@ -987,12 +978,11 @@
   },
  {
     
-    
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : " 9: Interfaces ",
+  "title" : " 9: Interfaces ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "<p>Abstraction · Deadly Diamond of Death · Interfaces · Implementing Interfaces · Social Network App</p>",
@@ -1018,7 +1008,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Deadly Diamond of Death ",
+  "title" : "Deadly Diamond of Death ",
   "img" : "a-deadly-diamond-of-death.jpg",
   "videoid" : "none",
   "objectives" : "<p>Abstraction · Deadly Diamond of Death</p>",
@@ -1034,7 +1024,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "Introduction to Interfaces ",
+  "title" : "Introduction to Interfaces ",
   "img" : "b-intro-to-interfaces.jpg",
   "videoid" : "none",
   "objectives" : "<p>Abstraction · Interfaces · Syntax of Interfaces · Implementing Interfaces · Simple Example</p>",
@@ -1050,7 +1040,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : "More on Interfaces ",
+  "title" : "More on Interfaces ",
   "img" : "c-more-on-interfaces.jpg",
   "videoid" : "none",
   "objectives" : "<p>Interfaces · Social Network App · Interfaces and Collections</p>",
@@ -1100,12 +1090,155 @@
   },
  {
     
+  
+    "properties" : {},
+  
+  "type" : "topic",
+  "title" : " 10: TDD and JUnit ",
+  "img" : "topic.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Test Driven Development (TDD) · JUnit · Test Classes · Annotations · Automating Tests</p>",
+  "folder" : "topic10-TDD-and-JUnit",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Lectures ",
+  "img" : "talk-1-tdd-intro/a-prog-fund-2-TDD-intro.jpg",
+  "videoid" : "",
+  "objectives" : "<p>Lectures</p>",
+  "folder" : "unit-10a-lectures",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Test Driven Development (TDD) ",
+  "img" : "a-prog-fund-2-TDD-intro.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Test Driven Development (TDD) · Unit Testing · JUnit Framework</p>",
+  "folder" : "talk-1-tdd-intro",
+  "link" : "a-prog-fund-2-TDD-intro.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "JUnit and DVD.java ",
+  "img" : "b-prog-fund-2-junit-dvdtest.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>JUnit Framework · Testing DVD.java</p>",
+  "folder" : "talk-2-junit-dvd-class",
+  "link" : "b-prog-fund-2-junit-dvdtest.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "JUnit Terminology ",
+  "img" : "c-prog-fund-2-junit-terminology.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>JUnit Terminology · Assertions · Annotations · Fixtures</p>",
+  "folder" : "talk-3-junit-terminology",
+  "link" : "c-prog-fund-2-junit-terminology.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Planning Testing ",
+  "img" : "d-prog-fund-2-junit-planning-tests.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>Four Phase Test · More complicated JUnit test</p>",
+  "folder" : "talk-4-planning-tests",
+  "link" : "d-prog-fund-2-junit-planning-tests.pdf",
+  "los": [
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "talk",
+  "title" : "Completing DVD app testing ",
+  "img" : "e-prog-fund-2-junit-library-class.jpg",
+  "videoid" : "none",
+  "objectives" : "<p>DVDTest.java · More JUnit tests for DVD app</p>",
+  "folder" : "talk-5-junit-library-class",
+  "link" : "e-prog-fund-2-junit-library-class.pdf",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "unit",
+  "title" : "Labs ",
+  "img" : "book-tdd/img/main.png",
+  "videoid" : "",
+  "objectives" : "<p>Labs</p>",
+  "folder" : "unit-10b-labs",
+  "link" : "index.html",
+  "los": [
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "Lab-10",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>JUnit · Test Classes · Annotations · Automating Tests</p>",
+  "folder" : "book-tdd",
+  "link" : "index.html",
+  "los": [
+   ]
+
+    } 
+   ]
+
+    } 
+   ]
+
+  },
+ {
     
   
     "properties" : {},
   
   "type" : "topic",
-  "title" : "Supplementary Materials ",
+  "title" : "Supplementary Materials ",
   "img" : "topic.jpg",
   "videoid" : "",
   "objectives" : "<p>You can ignore these materials if you wish · Packages · Utililties · ShopV6.0 · Parsing · Wrapping</p>",
@@ -1131,7 +1264,7 @@
     "properties" : {},
   
   "type" : "talk",
-  "title" : " Packages, Utilities and Parsing ",
+  "title" : " Packages, Utilities and Parsing ",
   "img" : "a-packages-utilities.jpg",
   "videoid" : "none",
   "objectives" : "<p>Packages · Utilities · Parsing · Wrapper Classes · ShopV6.0</p>",

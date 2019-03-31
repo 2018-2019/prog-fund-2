@@ -19,25 +19,25 @@
   "chapters" : [
   
     {
-    "title": "Objectives",
+    "title": "#Objectives",
     "shortTitle": "Lab-01a",
     "contentMd" : "#Objectives\r\n\r\nInstall JDK 11 + IntelliJ Idea (on own computer)"
     },
   
     {
-    "title": " Preparation",
+    "title": "# Preparation",
     "shortTitle": "01",
     "contentMd" : "# Preparation\r\n\r\n**NOTE: This entire lab is only for installing Java and IntelliJ on your own personal computers.  If you are using the college computers, please move onto lab01b.**\r\n\r\n\r\n## Command Prompt\r\n\r\nLaunch the command prompt: \r\n\r\n![](img/01.png)\r\n\r\nIn the next step, we will use this to verify that our Java11 JDK installed successfully.\r\n\r\n"
     },
   
     {
-    "title": " Install Java JDK: Windows",
+    "title": "# Install Java JDK: Windows",
     "shortTitle": "02",
     "contentMd" : "# Install Java JDK: Windows\r\n\r\nVisit this page:\r\n\r\n- <https://www.oracle.com/technetwork/java/javase/downloads/index.html>\r\n\r\nWe are going to install the latest vesrsion of the JDK.  Click on the Download link...a similar screen will be displayed:\r\n\r\n![](img/31.png)\r\n\r\nTick the radio button to accept their licence agreement.   \r\n\r\nIf you are using windows, your download is likely to be for Windows 64 e.g.:\r\n\r\n- jdk-11.0.1-windows-x64_bin.exe\r\n\r\nOnce the exe file is downloaded, follow the steps to install it on your computer. \r\n\r\nTo check if it is installed ok - you should type in the following command into the command prompt we opened earlier\r\n\r\n~~~\r\njava -version\r\n~~~\r\n\r\nIf your install was successful, you should get something like this:\r\n\r\n~~~\r\nC:\\Users\\Siobhan>java -version\r\njava version \"11.0.1\" 2018-10-16 LTS\r\nJava(TM) SE Runtime Environment 18.9 (build 11.0.1+13-LTS)\r\nJava HotSpot(TM) 64-Bit Server VM 18.9 (build 11.0.1+13-LTS, mixed mode)\r\n~~~\r\n\r\nNote: if it isn't displaying the version you just installed, try closing the command prompt, then reopen it and try the command again.  If this doesn't work, it is typically a problem with your environmental variables; you lecturer will be able to help you with this.\r\n\r\n\r\n# Install Java JDK: Mac\r\n\r\nFor the mac, the best way to install is to use Brew. These commands should do:\r\n\r\n~~~\r\nbrew update\r\nbrew install jenv\r\nbrew cask install caskroom/versions/java11\r\n~~~\r\n\r\nGetting the correct java version can be a challenge on mac. \r\n\r\n"
     },
   
     {
-    "title": " Install IntelliJ Idea",
+    "title": "# Install IntelliJ Idea",
     "shortTitle": "03",
     "contentMd" : "# Install IntelliJ Idea\r\n\r\nTo date we have been using Processing as our editor. \r\n\r\nNow, we will move to a professional Java Integrated Development Environment (IDE) called IntelliJ Idea:\r\n\r\n- <https://www.jetbrains.com/idea>\r\n\r\nBefore downloading, first create a new `Jetbrains` account:\r\n\r\n- <https://account.jetbrains.com/login>\r\n\r\nMake sure to ___use your WIT email address___, as this will allow you to gain access to the professional versions of all Jetbrains products.\r\n\r\nNow proceed to download and install the `Ultimate` version of the Idea IDE:\r\n\r\n- <https://www.jetbrains.com/idea>\r\n\r\nAt some stage in the below process, you will be prompted to log in...as you have already created your Jetbrains account, you can log in with your credentials then:\r\n\r\n![](img/58.png)\r\n\r\nDuring installation, make sure the following options are selected during the install:\r\n\r\n![](img/10.png)\r\n\r\nWhen the installation is completing, you may be asked to import settings...choose *Do not import settings*.\r\n\r\nWhen the Licence Agreement appears, scroll to the bottom and click on the *Accept* button.\r\n\r\nThen select your UI theme (See screen shot below) and then click the *Skip Remaining and Choose Defaults* button:\r\n\r\n![](img/09.png)\r\n\r\nThis should activate the application, and you will get to the opening screen (note, your version number might be slightly higher than the one below and, depending on the UI theme you chose, it might look different):\r\n\r\n![](img/18.png)\r\n\r\nYou can now move onto the next lab, where you will verify the IntelliJ installation.\r\n\r\n"
     }

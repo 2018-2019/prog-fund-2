@@ -19,25 +19,25 @@
   "chapters" : [
   
     {
-    "title": "Objectives",
+    "title": "#Objectives",
     "shortTitle": "Lab-02a",
     "contentMd" : "#Objectives\r\n\r\nScanner · primitive arrays · counter-controlled loops"
     },
   
     {
-    "title": "Demo Exercise",
+    "title": "#Demo Exercise",
     "shortTitle": "Demo",
     "contentMd" : "#Demo Exercise\r\n\r\nThis step introduces a way to write and check your exercises on IntelliJ.\r\n\r\nFor each exercise, you should write the code in its own method and give it a similiar method header to this:\r\n\r\n~~~java    \r\n    public static void exercise_demo()\r\n~~~\r\n\r\nNote the use of the static modifier in the method header.\r\n\r\n\r\n##Demo Exercise\r\n\r\nPerform these steps:\r\n\r\n- In IntelliJ, create a new Project called **ArrayExercises**.\r\n\r\n- Create a class in this Project called **PrimitiveArrays**\r\n\r\n- Write a method to read in 6 integers into an integer array and then print out the values to the screen.\r\n\r\n\r\n##Solution to the Demo Exercise\r\n\r\n~~~java\r\nimport java.util.*;\r\n\r\npublic class PrimitiveArrays {\r\n\r\n    private static Scanner input = new Scanner (System.in);\r\n\r\n    public static void main(String[] args) \r\n    {    \r\n        exercise_demo();\r\n    }\r\n    \r\n    public static void exercise_demo()\r\n    {\r\n        int numbers[] = new int[6];\r\n        \r\n        for (int i = 0; i < numbers.length ; i++)\r\n        {\r\n            System.out.print(\"Enter value : \");\r\n            numbers[i] = input.nextInt();\r\n        }\r\n        \r\n        for (int i = 0; i < numbers.length ; i++)\r\n        {\r\n            System.out.println(\"value \" + (i+1)  + \" is: \" + numbers[i]);\r\n        }\r\n    }\r\n}\r\n~~~\r\n\r\n"
     },
   
     {
-    "title": "Exercises",
+    "title": "#Exercises",
     "shortTitle": "Exercises",
     "contentMd" : "#Exercises\r\n\r\nUsing the same method naming system and use of static methods, attempt the following exercises.\r\n\r\nIn each case:\r\n\r\n- Add a method to the PrimitiveArrays class as written in the previous step.\r\n\r\n- declare the primitive array as needed locally in your method.\r\n\r\n- use the global Scanner object to read in data from the user.\r\n\r\n- call your writen method from the main class (and comment out calls to other methods).\r\n\r\n\r\n##Exercise 1\r\n\r\nWrite a method to read in 6 integers into an integer array and then print the values out backwards.  Call this method exercise_1.\r\n\r\n\r\n##Exercise 2\r\n\r\nWrite a method to read in 10 values into an integer array. Then add one to each value in the array. Finally, print out the resultant values in the array. Call this method exercise_2.\r\n\r\n\r\n##Exercise 3\r\n\r\nWrite a method to read in 10 ‘wages’ into a ‘double’ array (i.e. an array where each element is a double, for instance 2.33). Finally print out these values. Call this method exercise_3.\r\n\r\n\r\n##Exercise 4\r\n\r\nWrite a method to Similar to above , i.e. read in 10 ‘wages’ into a ‘double’ array (i.e. an array where each element is a double, for instance 2.33). This time only print out any wages over 100. Call this exercise_4.\r\n\r\n\r\n##Exercise 5\r\n\r\nSimilar to above, i.e. Read in 10 ‘wages’ into a ‘double’ array (i.e. an array where each element is a double, for instance 2.33). Anyone who earns over 1000 will have a wage reduction of 10%. Make this reduction. Finally print out all the values. Call this method exercise_5.\r\n\r\n\r\n##Exercise 6\r\n\r\nWrite a method to read in 10 'wages' into a 'double' array as above. Calculate and print the average of the inputted wages.  Call this method exercise_6.\r\n\r\n\r\n"
     },
   
     {
-    "title": "Solution",
+    "title": "#Solution",
     "shortTitle": "Solution",
     "contentMd" : "#Solution\r\n\r\nThe solution to these exercises [is here](archives/ArrayExercises.zip).\r\n\r\n\r\n"
     }
