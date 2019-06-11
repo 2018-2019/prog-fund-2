@@ -60,6 +60,22 @@
   "los": [
    ]
 
+    } ,
+   {
+    
+  
+    "properties" : {},
+  
+  "type" : "lab",
+  "title" : "RepeatAssignment",
+  "img" : "img/main.png",
+  "videoid" : "none",
+  "objectives" : "<p>Repeat Assignment is based on materials covered in Programming Fundamentals 2 module.  It is worth 100% of your overall repeat grade for the module.</p>",
+  "folder" : "book-c",
+  "link" : "index.html",
+  "los": [
+   ]
+
     } 
    ]
 
